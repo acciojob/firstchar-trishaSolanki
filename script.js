@@ -3,7 +3,7 @@ function firstChar(text) {
 	if(!text.trim()){
 		return '';
 	}
-	else if(text.charAt(0) !== ''){
+	else if(text !== ''){
 		return text.charAt(0);
 	}
 	return  '';
@@ -12,8 +12,6 @@ function firstChar(text) {
 	
 
 // Do not change the code below
-
-
 const text = prompt("Enter text:");
 alert(firstChar(text));
 
